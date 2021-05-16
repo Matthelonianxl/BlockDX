@@ -1,6 +1,6 @@
 # Sample build via docker cli:
 # docker build --build-arg cores=4 -t blocknetdx/devbuilds:3.9.22 .
-FROM ubuntu:trusty
+FROM ubuntu:trusty-20190515
 
 ARG cores=32
 ENV ecores=$cores
